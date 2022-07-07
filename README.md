@@ -1,0 +1,2 @@
+# adminDash
+Static Admin Dashboard
