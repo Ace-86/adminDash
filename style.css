@@ -104,6 +104,14 @@ div.settings>ul>li {
     gap: 10px;
 }
 
+.card {
+    margin: 10px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .boxleft {
     display: grid;
     grid-column: 1 / 3;
