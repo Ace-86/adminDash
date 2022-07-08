@@ -18,6 +18,9 @@
 }
 
 
+ul, li {
+    list-style-type: none;
+}
 
 /* header top section  */
 
@@ -30,37 +33,66 @@
     background-color: whitesmoke;
 }
 
+.headerButtons {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 /* sidebar section  */
 
 .sidebar {
     grid-row: 1 / 5;
     display: grid;
-    grid-template-rows: .5fr 2fr 2fr;
+    grid-template-rows: .2fr 1.5fr 2fr;
     border: 2px solid blue;
     background-color: lightskyblue;
 }
 
 .logo {
     grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
 }
 
 .list {
+    /* display: grid;
+    grid-template-rows: repeat(6, 1fr); */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
     grid-row: 2 / 3;
+    display: grid;
+    
+}
+
+div.list>ul>li {
+    /* display: block;
+    justify-content: center; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid green;
 }
 
 .settings {
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
     grid-row: 3 / 5;
 }
 
-ul, li {
-    list-style-type: none;
+div.settings>ul>li {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    border: 2px solid green;
+    margin: 20px;
 }
 
 
 
 /* content section  */
 
+/* left side with cards */
 .projects {
     grid-row: 2 / 5;
     grid-column: 2 / 5;
@@ -80,6 +112,7 @@ ul, li {
     gap: 30px;
 }
 
+/* right side with trends and ect */
 .boxright {
     display: grid;
     grid-column: 3 / 4;
