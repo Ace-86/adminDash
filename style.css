@@ -88,6 +88,7 @@ button {
     grid-template-rows: .2fr 1.5fr 2fr;
     border: 2px solid blue;
     background-color: lightskyblue;
+    color: white;
 }
 
 .logo {
@@ -120,6 +121,7 @@ div.list>ul>li {
     /* display: flex;
     justify-content: center; */
     grid-row: 3 / 5;
+    font-size: 15px;
 }
 
 div.settings>ul>li {
@@ -177,6 +179,7 @@ div.settings>ul>li {
     justify-self: center;
     height: 16rem;
     width: 15rem;
+    background-color: white;
 }
 
 .announce {
@@ -184,4 +187,5 @@ div.settings>ul>li {
     justify-self: center;
     height: 16rem;
     width: 15rem;
+    background-color: white;
 }
