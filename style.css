@@ -146,14 +146,6 @@ div.settings>ul>li {
     gap: 10px;
 }
 
-.card {
-    margin: 10px;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
 
 .boxleft {
     display: grid;
@@ -162,6 +154,48 @@ div.settings>ul>li {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
+
+
+.card {
+    margin: 10px;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 2fr, .5fr;
+    
+}
+
+
+.topcard {
+    display: grid;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topcard>p {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+}
+
+h3 {
+    display: flex;
+    margin: 20px 20px -20px 20px;
+
+}
+
+.bottomcard {
+    grid-template-rows: 2 / 3;
+    display: inline-flex;
+    justify-content: end;
+}
+
+.cardIcon{
+   margin: 20px;
+   align-self: center;
+}
+
+
 
 /* right side with trends and ect */
 .boxright {
