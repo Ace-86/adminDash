@@ -25,7 +25,7 @@
     grid-template-columns: .7fr 1fr .5fr 1fr;
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-rows: repeat(4, 1fr);
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     
 }
 
@@ -45,7 +45,7 @@ ul, li {
     display: grid;
     grid-template-rows: minmax(auto, 1fr) 2fr;
     grid-template-columns: minmax(auto, 1fr) 1fr;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: whitesmoke;
 }
 
@@ -129,7 +129,7 @@ button {
     grid-row: 1 / 5;
     display: grid;
     grid-template-rows: minmax(auto, 1fr), .2fr 1.5fr 2fr;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: lightskyblue;
     color: white;
 }
@@ -215,7 +215,7 @@ h1 {
     display: grid;
     grid-template-columns: minmax(auto, 1fr) 1fr;
     grid-template-rows: minmax(auto, 1fr) 1fr;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: rgba(175, 175, 175, 0.973);
     /* gap: 10px; */
 }
