@@ -86,7 +86,7 @@ button {
     width: 700px;
     height: 40px;
     border-radius: 1rem;
-    background-color: lightgrey;
+    background-color: rgba(199, 209, 214, 0.973);
     border: none;
 }
 
@@ -287,8 +287,8 @@ h3 {
     grid-column: 3 / 4;
     grid-row: 1 / 4;
     grid-template-rows: minmax(auto, 1fr) 1fr;;
-    gap: 100px;
-    border: 2px solid green;
+    /* gap: 50px; */
+    /* border: 2px solid green; */
 }
 
 .trending {
@@ -296,28 +296,32 @@ h3 {
     display: grid;
     border-radius: 2rem;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* margin-top: 20px; */
     /* justify-self: center;
     height: 16rem;
     width: 15rem; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: white;
+    margin: 20px;
 }
 
 .announce {
+    margin: 20px;
+
     display: grid;
     justify-self: center;
     height: 16rem;
     width: 15rem;
     background-color: white;
     border-radius: 2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 .boxrow {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 20px;
 
 }
